@@ -1,12 +1,14 @@
 .{
-    .name = "iso3166",
+    .name = .iso3166,
     .version = "0.0.2",
-    .minimum_zig_version = "0.14.0",
+    .fingerprint = 0x940795bf67aba67f,
+    .minimum_zig_version = "0.15.0-dev.631+9a3540d61",
     .dependencies = .{},
     .paths = .{
         "build.zig",
         "build.zig.zon",
-        "iso3166.zig",
+        "src",
         "LICENSE",
+        "README.md",
     },
 }
